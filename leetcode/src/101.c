@@ -6,7 +6,7 @@
  *     struct TreeNode *right;
  * };
  */
-
+/** for hacktoberfest t-shirt*/
 bool checkSymmetric(struct TreeNode *left, struct TreeNode *right) {
     if (!left || !right)
         return left == right;
